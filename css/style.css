@@ -621,6 +621,16 @@
     top: 0;
     z-index: 1;
 
+
+}
+
+#main_visual .scroll {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    z-index: 999;
+    transform: translate(-50%, 0);
+    z-index: 2;
 }
 
 @media (max-width:768px) {
