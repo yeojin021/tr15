@@ -3,6 +3,7 @@ $(function () {
         videoURL: 'https://youtu.be/Cn2BHHaYYPQ',
         containment: '#main_visual',
         showControls: false,
+        mute: true,
     });
 
     $('.fl>a').on('click', function (e) {
